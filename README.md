@@ -1,16 +1,39 @@
-# React + Vite
+Project Name -> Student Management System (crud Application)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Description -> This project is a Student Management System developed using React.js, Axios, and JSON Server. It allows users to create, read, update, and delete student records. The application demonstrates API integration with Axios, state management, form handling, and CRUD operations in React.
 
-Currently, two official plugins are available:
+Techonologies Used ->
+React.js
+JavaScript (ES6+)
+Axios
+JSON Server
+HTML5
+CSS3
+PrimeReact
+Form Validation
+Git & GitHub
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features ->
+Add Student Records
+View Student Details
+Update Student Information
+Delete Student Records
+Form Validation
+Responsive UI using PrimeReact
+API Integration with Axios
+CRUD Operations using JSON Server
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How to install and run this Project ->
+Installation & Setup
+Clone the repository:
+git clone <https://github.com/sombhartigoswami/Student-Management-System.git>
+Navigate to the project folder:
+cd Student-Management-System
+Install dependencies:
+npm install
+Start JSON Server:
+npx json-server --watch db.json --port 5000
+Start the React application:
+npm start
+Open your browser and visit:
+http://localhost:3000
