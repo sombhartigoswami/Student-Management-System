@@ -8,12 +8,15 @@ import { Button } from "primereact/button";
 
 function UserList() {
   const [userdata, setUserdata] = useState([]);
+  const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
 
   const getUsers = async () => {
+    setLoading(true);
     const response = await Api.get("/students");
     // console.log(response);
     setUserdata(response.data);
+    setLoading(false);
   };
 
   useEffect(() => {
@@ -52,7 +55,10 @@ function UserList() {
       />
     </>
   );
-
+  // add loading 
+  if(loading){
+    return <h2>Loading Student Data Please Wait....</h2>;
+  }
   return (
     <div>
       <div
