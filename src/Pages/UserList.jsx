@@ -227,6 +227,7 @@ function UserList() {
           header="Register Date"
           filter
           filterPlaceholder="Search"
+          showFilterMenu = {false}
           style={{ width: "16%" }}
           sortable
         ></Column>
@@ -235,6 +236,7 @@ function UserList() {
           header="Name"
           filter
           filterPlaceholder="Search"
+           showFilterMenu = {false}
           style={{ width: "16%" }}
           sortable
         ></Column>
@@ -243,6 +245,7 @@ function UserList() {
           header="Phone"
           filter
           filterPlaceholder="Search"
+           showFilterMenu = {false}
           style={{ width: "16%" }}
           sortable
         ></Column>
@@ -251,6 +254,7 @@ function UserList() {
           header="fees Status"
           filter
           filterPlaceholder="Search"
+           showFilterMenu = {false}
           style={{ width: "16%" }}
           sortable
         ></Column>
@@ -259,6 +263,7 @@ function UserList() {
           header="seat Availability"
           filter
           filterPlaceholder="Search"
+           showFilterMenu = {false}
           style={{ width: "16%" }}
           sortable
         ></Column>
