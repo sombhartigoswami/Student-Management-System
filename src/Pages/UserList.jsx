@@ -197,6 +197,35 @@ function UserList() {
       >
         <h2>Library Management System</h2>
         <Button
+  label="Logout"
+  onClick={handleLogout}
+  style={{
+    backgroundColor: "#dc2626",
+    border: "none",
+    borderRadius: "8px",
+    padding: "8px 16px",
+    fontSize: "14px",
+    fontWeight: "600",
+    color: "white",
+    margin: "5px"
+  }}
+/>
+
+<Button
+  label="Add"
+  onClick={() => navigate("/add")}
+  style={{
+    backgroundColor: "#16a34a",
+    border: "none",
+    borderRadius: "8px",
+    padding: "8px 16px",
+    fontSize: "14px",
+    fontWeight: "600",
+    color: "white",
+    margin: "5px"
+  }}
+/>
+        {/* <Button
           label="Logout"
           onClick={handleLogout}
           style={{ margin: "10px" }}
@@ -205,7 +234,7 @@ function UserList() {
           label="Add"
           style={{ margin: "10px" }}
           onClick={() => navigate("/add")}
-        />
+        /> */}
       </div>
       <DataTable
         value={userdata}
