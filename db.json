@@ -1,0 +1,23 @@
+{
+  "students": [
+    {
+      "date": "2026-06-11",
+      "name": "Som",
+      "phone": "8950601259",
+      "fees": "paid",
+      "seat": "fill",
+      "seatno": "2",
+      "id": "ZIZPjfm908I"
+    },
+    {
+      "date": "2026-06-11",
+      "name": "Sahil",
+      "phone": "8950601259",
+      "fees": "paid",
+      "seat": "fill",
+      "seatno": "2",
+      "id": "lW3l_9JnNio"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
