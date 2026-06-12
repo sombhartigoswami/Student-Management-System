@@ -228,7 +228,7 @@ function UserList() {
           filter
           filterPlaceholder="Search"
           showFilterMenu = {false}
-          style={{ width: "16%" }}
+          style={{  minWidth:"150px"}}
           sortable
         ></Column>
         <Column
@@ -237,7 +237,7 @@ function UserList() {
           filter
           filterPlaceholder="Search"
            showFilterMenu = {false}
-          style={{ width: "16%" }}
+          style={{ minWidth:"150px"}}
           sortable
         ></Column>
         <Column
@@ -246,7 +246,7 @@ function UserList() {
           filter
           filterPlaceholder="Search"
            showFilterMenu = {false}
-          style={{ width: "16%" }}
+              style={{ minWidth:"150px"}}
           sortable
         ></Column>
         <Column
@@ -255,7 +255,7 @@ function UserList() {
           filter
           filterPlaceholder="Search"
            showFilterMenu = {false}
-          style={{ width: "16%" }}
+          style={{  minWidth:"150px"}}
           sortable
         ></Column>
         <Column
@@ -264,7 +264,7 @@ function UserList() {
           filter
           filterPlaceholder="Search"
            showFilterMenu = {false}
-          style={{ width: "16%" }}
+          style={{ minWidth:"150px"}}
           sortable
         ></Column>
         <Column
