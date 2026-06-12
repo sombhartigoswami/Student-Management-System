@@ -1,13 +1,16 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
   const handleLogin = (e) => {
     e.preventDefault();
     if (username === "Guest" && password === "Guest@123456789") {
       localStorage.setItem("isLoggedIn", "true");
-      window.location.href = "/users";
+      // window.location.href = "/users";
+      navigate("/users");
     } else {
       alert("Invalid Username or Password");
     }
