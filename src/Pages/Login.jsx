@@ -9,7 +9,6 @@ function Login() {
     e.preventDefault();
     if (username === "Guest" && password === "Guest@123456789") {
       localStorage.setItem("isLoggedIn", "true");
-      // window.location.href = "/users";
       navigate("/users");
     } else {
       alert("Invalid Username or Password");
@@ -22,7 +21,6 @@ function Login() {
       <p>
         Demo Login: <b>Guest/Guest@123456789</b>
       </p>
-
       <form onSubmit={handleLogin}>
         <input
           type="text"
