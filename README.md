@@ -1,6 +1,6 @@
 Project Name -> Student Management System (crud Application)
 
-Project Description -> This project is a Student Management System developed using React.js, Axios, and JSON Server. It allows users to create, read, update, and delete student records. The application demonstrates API integration with Axios, state management, form handling, and CRUD operations in React.
+Project Description -> This project is a Student Management System developed using React.js, Axios, and JSON Server. It allows users to create, read, update, and delete student records. The application demonstrates API integration with Axios, state management, form handling, and CRUD operations in React.It also includes user authentication features such as Login and Logout functionality to ensure authorized access. The project is built with a responsive user interface and focuses on data management, authentication, and user experience.
 
 Techonologies Used ->
 React.js,
@@ -14,6 +14,7 @@ Form Validation,
 Git & GitHub,
 
 Features ->
+User Login and Logout Authentication,
 Add Student Records,
 View Student Details,
 Update Student Information,
@@ -22,6 +23,7 @@ Form Validation,
 Responsive UI using PrimeReact,
 API Integration with Axios,
 CRUD Operations using JSON Server,
+Responsive and User-Friendly Interface
 
 
 Installation & Setup ->
