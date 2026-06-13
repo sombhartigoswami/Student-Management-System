@@ -17,7 +17,7 @@ function Login() {
 
   return (
     <div style={{ textAlign: "center", marginTop: "100px" }}>
-      <h2>Library System Login</h2>
+      <h2>Students System Login</h2>
       <p>
         Demo Login: <b>Guest/Guest@123456789</b>
       </p>
