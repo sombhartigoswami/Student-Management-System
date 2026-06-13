@@ -71,7 +71,7 @@ function UserList() {
           background: "lightgreen",
         }}
       >
-        <h2>Library Management System</h2>
+        <h2>Students Management System</h2>
         <Button
   label="Logout"
   onClick={handleLogout}
